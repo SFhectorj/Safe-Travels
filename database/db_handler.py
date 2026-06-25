@@ -80,8 +80,6 @@ def get_route_history(user_id):
 
   return results
 
-
-
 if __name__ == "__main__":
     conn = get_db_connection()
     if conn.is_connected():
